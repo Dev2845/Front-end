@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form task 2</title>
+</head>
+
+<body>
+    <table align="center">
+        <caption>Student Registration form</caption>
+        <form action="">
+            <br><br>
+            <tr>
+                <td><label for="">First Name</label></td>
+                <td><input type="text" placeholder="Enter your first name" pattern="[a-z,A-Z]{3,10}" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Last Name</label></td>
+                <td><input type="text" placeholder="Enter your last name" required pattern="[a-z,A-Z]"></td>
+            </tr>
+            <tr>
+                <td><label for="">Email id </label></td>
+                <td><input type="email" placeholder="Enter your Mail Id" required pattern=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Mobile number</label></td>
+                <td><input type="tel" placeholder="9999xxxxxx" required pattern="[0-9]{10}"></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td><input type="radio" name="x" required>male</td>
+                <td><input type="radio" name="x" required>Female</td>
+            </tr>
+            <tr>
+                <td><label for="">Date of Birth</label></td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td> <textarea name="" id="" placeholder="Enter your Address" rows="10" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="">City</label></td>
+                <td><input type="text" required pattern="[a-z,A-Z]{0-50}"></td>
+            </tr>
+            <tr>
+                <td><label for="">Pin code</label></td>
+                <td><input type="number" required pattern="[0-9]{6}"></td>
+            </tr>
+            <tr>
+                <td><label for="">Hobbies</label></td>
+                <td><input type="checkbox"> drawing </td>
+                    <td><input type="checkbox">Singing</td> <br>dancing <br>Sketching <br>Other</td>
+                <td><input type="text" placeholder="Ex-Teaching" pattern="[a-z,A-Z]{50}" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Qualification</label></td>
+                <td><input type="checkbox">High school(10th) <br> Higher school(12th) <br>Graduation(bachelors) <br>Post
+                    Graduation(master) <br>PHD</td>
+            </tr>
+            <tr>
+                <td><label for="">course <br>Applied for</label></td>
+                <td><input type="checkbox">BCA(bachelors of computer applications) <br>B.com(bachelors of
+                    commerce)<br>B.sc(bachelors of Science) <br>BA(bachelors of Arts) <br>MCA(Master of computer
+                    applications) <br>M.com(Master of commerce) <br>MA(Master of Arts)</td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><input type="submit">
+                    <input type="reset">
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
