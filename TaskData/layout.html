@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        padding: 0%;
+        margin: 0%;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+
+    }
+    .navbar{
+        height: 60px;
+        background-color: black ;
+        border-radius: 10px;
+    }
+    #logo{
+        color: orange;
+        height: 25px;
+
+    }
+    a{
+        text-decoration: none;
+        margin-right: 200px;
+
+    }
+    button{
+        background-color: rgb(234, 88, 16);
+    }
+    .main{
+        height: 200px;
+        width: 300px;
+        border: 2px solid;
+        margin: 200px auto;
+        overflow: hidden;
+        background-image: url(https://img.freepik.com/premium-photo/fashion-clothes-store-background_198067-119189.jpg);
+        border-radius: 10px;
+        
+    }
+    .right{
+        height: 200px;
+        width: 300px;
+        background-color: rgba(0, 0, 0,0.4);
+        transform: translate(100%,-100%);
+        transition: .6s;
+    }
+    .main:hover .right{
+        transform: translate(0%,0%);
+    }
+    .left{
+        height: 200px;
+        width: 300px;
+        background-color: rgba(0, 0, 0,0.4);
+        transform: translate(-100%,0);
+        transition: .6s;}
+
+        .main:hover .left{
+        transform: translate(0%,-100%);}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="" id="logo">Amazon.in</a>
+        <a href="">Account</a>
+        <a href="">My cart</a>
+        <a href="">Contact us</a>
+        <input type="text" placeholder="Search Amazon.in">
+        <button>Search</button>
+
+    </div>
+    <div class="main">
+        <div class="right"></div>
+        <div class="left"></div>
+    </div>
+    <div class="main2">
+        <div class="right1"></div>
+        <div class="left2"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li:first-child{
+            background-color: red;
+        }
+        ul li:last-child{
+            background-color: blue;
+        }
+        ul li:nth-child(3){
+            background-color: lightgreen;
+        }
+        ul li:nth-child(even){
+            background-color: lightcoral;
+        }
+        ul li:nth-child(odd){
+            background-color: lightgreen;
+        }
+        ul li:nth-last-child(2){
+            background-color: red;
+        }
+        .main{
+            height: 200px;
+            width: 200px;
+            border: 2px solid;
+             transition: 1s;
+        }
+        .main:hover {
+            background-color: lightcoral;
+            transform: translate(100px);
+            border-radius: 50%;
+        }
+        input{
+            margin-top: 40px;
+              border: none;
+            outline: none;
+            border: 5px solid green;
+        }
+        input:focus{
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- : pseudo-class
+    :: pseudo-elemenet -->
+
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Help</li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Help</li>
+
+    </ul>
+
+    <div class="main">
+
+    </div>
+
+    <!-- preret in prenet allow
+        child in child allow
+        prenrent in child allow 
+        child thi prenet not allow
+    -->
+
+    <input  type="text" placeholder="Enter your Name" name="" id="">
+
+</body>
+
+</html>
