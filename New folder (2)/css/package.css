@@ -1,0 +1,161 @@
+/*
+Template Name: Go Travel
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************package****************/
+.center_pack{
+background-image: url(../img/35.jpg);
+background-position: center;
+ }
+.center_pack_dt{
+background-image: url(../img/36.jpg);
+background-position: center;
+ }
+
+.pack_dt1ri1l  span {
+width: 50px;
+height: 50px;
+line-height: 50px;
+}
+
+
+.pack_db1r1 .nav-tabs .nav-link.active {
+color: #5ca13e;
+background:none;
+border: none;
+}
+.pack_db1r1 .nav-tabs .nav-link {
+padding:0;
+background:none;
+border: none;
+color:#000;
+}
+.pack_db1r1 .nav-tabs .nav-link:hover {
+color: #5ca13e;
+background:none;
+border: none;
+}
+.profilei .form_text{
+height:100px!important; 
+ }
+.pack_1l1il label{
+font-size:14px; 
+ }
+/*********************package_end****************/
+
+
+@media screen and (max-width : 767px){
+.pack_1l1 h5{
+text-align:center; 
+ }
+.pack_1l1il{
+margin-top:5px;
+margin-bottom:5px; 
+ }
+#pack{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+.pack_1r{
+margin-top:15px; 
+ }
+.center_h1i2 {
+padding-top:42%; 
+ }
+.pack_dt1r{
+margin-top:15px; 
+ }
+.pack_dt1ri1 {
+margin-top:8px;
+margin-bottom:8px; 
+ }
+#pack_dt{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#pack_db{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+.pack_db1l h4{
+text-align:center; 
+ }
+.pack_db1libl{
+margin-top:8px;
+margin-bottom:8px;  
+ }
+.pack_db1r{
+margin-top:15px; 
+ }
+.pack_db1r1 .nav-tabs .nav-link{
+font-size:13px; 
+ }
+.pack_db1r1 .form-check{
+font-size:13px; 
+ }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+#pack_dt{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#pack_db{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#pack{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+.pack_1l1il .form-check{
+font-size:12px; 
+ }
+.pack_dt1ri1l span {
+width: 30px;
+height: 30px;
+line-height: 30px;
+font-size:14px!important;
+}
+.pack_db1r1 .form-check{
+font-size:13px; 
+ }
+.pack_db1r1 .nav-tabs .nav-link{
+font-size:12px; 
+ }
+.pack_db1r1 .nav-tabs li{
+margin-left:2px!important;
+margin-right:2px!important;
+ }
+.pack_db1r1 {
+padding:10px!important; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.pack_1l1il .form-check{
+font-size:13px; 
+ }
+.pack_dt1ri1l span {
+width: 40px;
+height: 40px;
+line-height: 40px;
+font-size:16px!important;
+}
+.pack_db1r1 .nav-tabs .nav-link{
+font-size:13px; 
+ }
+ }
+
+@media (min-width:1201px) and (max-width:1270px) {
+
+ }
+

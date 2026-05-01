@@ -1,0 +1,183 @@
+/*
+Template Name: Go Travel
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************about****************/
+.center_about {
+background-image: url(../img/23.jpg);
+background-position: center;
+}
+.center_serv {
+background-image: url(../img/37.jpg);
+background-position: center;
+}
+.center_price {
+background-image: url(../img/38.jpg);
+background-position: center;
+}
+.about_h1ril span{
+font-size:70px; 
+ }
+/*********************about_end****************/
+
+
+@media screen and (max-width : 767px){
+.about_pg1l {
+text-align:center; 
+ }
+.about_pg2i{
+text-align:center;
+margin-top:5px;
+margin-bottom:5px;  
+ }
+.about_pg2i p{
+text-align:left;  
+ }
+#about_pg{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#appoint{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+.appoint_1r {
+text-align:center!important;
+margin-top:15px; 
+ }
+.appoint_1l {
+padding-top:0!important; 
+ }
+ 
+#serv_pg{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#serv_pgo{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#plan{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#serv_pg .about_h1r{
+margin-top:15px; 
+ }
+#serv_pg .about_h1r h5{
+text-align:center; 
+ }
+.about_h1ri {
+text-align:center;  
+ }
+.about_h1ri p{
+text-align:left;  
+ }
+.serv_pgo1lil {
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.serv_pgo1r{
+text-align:center;
+margin-top:15px;  
+ }
+.serv_pgo1r p{
+text-align:left;  
+ }
+.serv_pgo1r br{
+display:none; 
+ }
+.plan_1r {
+margin-top:15px; 
+ }
+.plan_1r p{
+text-align:left;
+ }
+#price_o{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#price_b{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+.price_o1r{
+margin-top:15px; 
+ }
+.price_b1l{
+text-align:center;
+margin-bottom:15px; 
+ }
+.price_b1l p{
+text-align:left; 
+ }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+#about_pg{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#appoint{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#serv_pg{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#serv_pgo{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#plan{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#price_o{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+#price_b{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+.disc_1r img{
+min-height:500px; 
+ }
+.about_h1ril span {
+font-size: 40px;
+}
+.plan_1l img{
+min-height:500px; 
+ }
+.price_o1l img{
+min-height:500px; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.disc_1r img{
+min-height:500px; 
+ }
+.plan_1l img{
+min-height:500px; 
+ }
+.price_o1l img{
+min-height:500px; 
+ }
+
+ }
+
+@media (min-width:1201px) and (max-width:1270px) {
+
+ }
+

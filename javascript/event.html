@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Event : 
+    1) mouse event : click,enter,remove/leave 
+    2) keybord : keyup,keypress
+    3) form : onsubmit,change ,onblure 
+    4) window : resize,load -->
+
+    <h1 id="h1"></h1>
+    <button onclick="demo()">Show data</button>
+
+    <script>
+
+        function demo(){
+            console.log("Hello demo")
+            // document.writeln("hello demo")
+            document.getElementById("h1").innerHTML = "Hello demo"
+        }
+
+    </script>
+
+</body>
+</html>

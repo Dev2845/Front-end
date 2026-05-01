@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <input type="text" onkeypress="test()" placeholder="Enter your Data" id="text"> -->
+    <input type="text" onkeyup="test()" placeholder="Enter your Data" id="text">
+
+    <textarea name="" id="Textdata" cols="30" rows="10"></textarea>
+    <br> <br>
+    <button onclick="test()">Send me</button>
+
+    <script>
+
+        let textdata = document.getElementById("text")
+        let texValue = document.getElementById("Textdata")
+
+        function test() {
+            // texValue.value = textdata.value
+            // console.log(texValue.value)
+            texValue.innerHTML = textdata.value
+        }
+
+    </script>
+</body>
+
+</html>

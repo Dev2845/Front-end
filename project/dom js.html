@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="h1">shubham</h1>
+
+    <h1 id="main"></h1>
+    
+
+    <!-- internal js -->
+    <script>
+ 
+        // DOM : Document object model
+
+        // 1) console debugg
+        // console.log("hello javascript")
+        // console.log("hello")
+        // console.log(10+20)
+        // console.log("sub : ",20-10)
+        
+        // // 2) document.write 
+        // document.writeln("hello shubham <br>");
+        // document.writeln("hello")
+        // document.writeln(10+29)
+        // document.writeln("<h1>hello javascript</h1>")
+
+        // 3) getElementByid method innerText
+        console.log(document.getElementById("h1"))
+        // only for text not html allow
+        document.getElementById("h1").innerText = "<i>Hello shubham</i>"
+
+
+        // 4) dom .innerHTML
+        console.log(document.getElementById("main"))
+
+        // dom interhtml : html and text both allow
+        document.getElementById("main").innerHTML = "<i>Hello javascript</i>"
+    </script>
+
+</body>
+</html>

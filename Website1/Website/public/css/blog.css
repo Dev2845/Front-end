@@ -1,0 +1,136 @@
+/*
+Template Name: Go Travel
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************blog****************/
+.center_blog {
+background-image: url(../img/24.jpg);
+background-position: center;
+}
+.center_blog_dt{
+background-image: url(../img/30.jpg);
+background-position: center;
+ }
+.center_cont{
+background-image: url(../img/34.jpg);
+background-position: center;
+ }
+.contact_1i h5 span{
+width:60px;
+height:60px;
+line-height:60px; 
+ }
+ 
+.contact_1i{
+background:#e8f5e2;
+padding:15px; 
+ }
+.contact_1i p{
+font-size:14px;
+ }
+/*********************blog_end****************/
+
+
+@media screen and (max-width : 767px){
+.blog_h1l{
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.testim_1i1 {
+text-align:left!important; 
+ }
+.blog_dt1i1l{
+margin-top:8px;
+margin-bottom:8px;  
+ }
+.blog_dt1i2r {
+text-align:left!important;
+margin-top:10px;  
+ }
+.blog_dt1ib1 h2{
+text-align:center; 
+ }
+.blog_dt1ib2 h2{
+text-align:center; 
+ }
+.blog_dt1ib3 h2{
+text-align:center; 
+ }
+.blog_dt1ib2i {
+padding-left:10px!important; 
+padding-right:10px!important; 
+ }
+.blog_dt1ib2i p{
+font-size:14px;
+ }
+.blog_dt1ib2i ul li{
+font-size:14px;
+ }
+.blog_dt1ib2i  h6{
+font-size:13px;
+ }
+.blog_dt1ib2i  h5{
+font-size:16px;
+ }
+.blog_dt1ib3il .form-control{
+margin-top:10px; 
+ }
+.blog_dt1ib3il {
+text-align:center; 
+ }
+.blog_dt1ib3i {
+margin-top:15px!important;  
+ }
+#contact{
+padding-left:0!important;
+padding-right:0!important; 
+ }
+.contact_1i h6{
+ text-align:center; 
+ }
+.contact_1i{
+margin-top:8px;
+margin-bottom:8px;
+text-align:center; 
+ }
+.contact_2l{
+text-align:center;
+margin-bottom:15px; 
+ }
+.contact_2l p{
+text-align:left; 
+ }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+.contact_1i h5 span {
+width: 40px;
+height: 40px;
+line-height: 40px;
+font-size:18px!important;
+margin-right:10px!important;
+}
+.contact_1i h5 {
+font-size:18px;
+}
+
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.contact_1i h5 {
+font-size:18px;
+}
+ }
+
+@media (min-width:1201px) and (max-width:1270px) {
+
+ }
+

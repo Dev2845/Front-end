@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- function : it's block of code when we need simple call it  
+            () : Reuse
+             
+        two 
+        1) predefind function : 
+
+        2) user defind function : user created 
+
+        syntax : 
+        function name(){
+            .code
+        }
+        name()
+        name()
+    -->
+
+    <script>
+
+        // 1) predefind 
+        // console.log("hello")
+        // console.log(1)
+        // document.writeln("hello")
+        // confirm("are your syre")
+
+        // 2) user defind 
+        // catgroy 
+        // 1) without parameter 
+
+        function demo() {
+            console.log("Hello function show")
+            document.writeln("<br>Hello function<br>")
+        }
+
+        function data() {
+            for (let i = 1; i <= 30; i++) {
+                document.writeln("*")
+            }
+        }
+
+        data()
+        demo()
+        data()
+        demo()
+        data()
+
+
+        // 2) with parameter 
+
+        function sum(a,b){
+            console.log("Sum : ",a+b)
+        }
+
+        console.log(sub(80,20))
+
+        sum(30,20)
+        sum(50,40)
+        sum(60,30)
+
+        // parameter ,refre ,agument
+
+        function sub(a,b){
+            return a-b
+        }
+
+        console.log(sub(60,20))
+
+
+    </script>
+</body>
+
+</html>

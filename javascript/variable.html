@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- varibale : it's collection of multiple value store in single varibale 
+     
+   
+        varibale defind rules : 
+        1) do not start with number (34shbam)
+        2) do not start with symbols (#shjs)
+        3) do not start with keyword (console,document,print,) 32 keyword
+
+        sytax : 
+        variblaetype var-name = value ;
+
+    -->
+
+
+    <script>
+
+        // 1) var global 
+
+        var x = 10; // defined/decalration allow 
+        var x = 12; // re-deacalaration allow
+        x = 20 ; //re-assigement allow
+
+        console.log("x : ",x)
+
+        
+        // 2) let local
+
+        let y = 30 //defined/decalration allow
+        // let y = 32 //re-declaration not allow
+        y = 35  //re-assigement allow
+
+        console.log("y : ",y)
+
+        // 3) const unique 
+        const z = 80  //defined/decalration allow
+        // const z = 90 //re-declaration not allow
+        // z = 91  //re-assigement not allow
+
+        console.log("Z :",z)
+
+    </script>
+
+</body>
+</html>

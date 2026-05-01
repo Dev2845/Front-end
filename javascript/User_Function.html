@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" placeholder="Enter your num1" id="num1" value="">
+    <input type="text" placeholder="Enter your num2" id="num2">
+    <br> <br>
+    <button onclick="sum()">Sum</button>
+    <button onclick="sub()">Sub</button>
+    <button onclick="Mul()">Mul</button>
+
+    <h1 id="h1"></h1>
+
+    <script>
+
+        let num1 = document.getElementById("num1")
+        let num2 = document.getElementById("num2")
+
+        console.log(num1)
+
+        function sum(){
+            let sum = parseFloat(num1.value) + parseFloat(num2.value )
+            console.log(sum)
+            // document.getElementById("h1").innerHTML = "sum : "+sum;
+            document.getElementById("h1").innerHTML = `Sum : ${sum}`
+        }
+
+        function sub(){
+            let sub = parseFloat(num1.value) - parseFloat(num2.value)
+            document.getElementById("h1").innerHTML = `Sub : ${sub}`
+        }
+    
+
+           function Mul(){
+            let sub = parseFloat(num1.value) * parseFloat(num2.value)
+            document.getElementById("h1").innerHTML = `Mul : ${sub}`
+        }
+    
+
+    </script>
+
+</body>
+</html>
