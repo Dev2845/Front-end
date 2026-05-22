@@ -1,12 +1,43 @@
 import React from 'react'
 import Header from '../Comman/Header'
 import Footer from '../Comman/Footer'
+import NavTitle from '../Comman/NavTitle'
 
 function About() {
     return (
         <div>
             <Header />
+            <NavTitle title="About Us" name="About Us" img/>
             <div>
+               <section id="disc" className="p_3 px-3 bg-light">
+                    <div className="container-fluid">
+                        <div className="disc_1 row">
+                            <div className="col-md-6">
+                                <div className="disc_1l">
+                                    <h5 className="col_green">Explore the world with us, one adventure at a time.</h5>
+                                    <h1 className="mt-3">The perfect   vacation   come true with our Travel Agency</h1>
+                                    <p className="mt-3 mb-4">Whether you're planning a romantic honeymoon or a family vacation, our price section has got you covered. So, start browsing today and find the perfect vacation package at a price that won't leave you feeling guilty.</p>
+                                    <h6>Organized Group Tour</h6>
+                                    <div className="progress-bar mt-3">
+                                        <div className="progress" style={{ width: '90%' }}>
+                                        </div>
+                                    </div>
+                                    <h6 className="mt-4">Local travel guides</h6>
+                                    <div className="progress-bar mt-3">
+                                        <div className="progress" style={{ width: '80%' }}>
+                                        </div>
+                                    </div>
+                                    <h6 className="mb-0 mt-4"><a className="button" href="#">MORE INFO</a></h6>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="disc_1r">
+                                    <img src="img/17.jpg" className="w-100" alt="abc" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section id="about_pg" className="p_3 px-3">
                     <div className="container-fluid">
                         <div className="about_pg1 row">
@@ -200,8 +231,7 @@ function About() {
                         </div>
                     </div>
                 </section>
-            </div>
-
+                 </div>
             <Footer />
         </div>
     )

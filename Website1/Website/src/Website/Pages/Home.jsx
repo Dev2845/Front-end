@@ -1,73 +1,12 @@
 import React from 'react'
+import Header from '../Comman/Header'
 
 function Home() {
     return (
         <div>
             <div>
-                <section id="header">
-                    <nav className="navbar navbar-expand-md navbar-light shadow_box px-3" id="navbar_sticky">
-                        <div className="container-fluid">
-                            <a className="col_voilet p-0 navbar-brand fw-bold" href="index.html"><i className="fa fa-tripadvisor  align-middle col_green" /> GO TRAVEL <br /> <span className="col_green  font_10">ADVENTURE</span></a>
-                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon" />
-                            </button>
-                            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul className="navbar-nav mb-0 ms-auto nav_left">
-                                    <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="index.html">Home</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="about.html">About </a>
-                                    </li>
-                                    <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Blog
-                                        </a>
-                                        <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                                            <li><a className="dropdown-item" href="blog.html"> Blog</a></li>
-                                            <li><a className="dropdown-item border-0" href="blog_detail.html"> Blog Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Package
-                                        </a>
-                                        <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                                            <li><a className="dropdown-item" href="package.html"> Package</a></li>
-                                            <li><a className="dropdown-item border-0" href="detail.html"> Package Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="services.html">Services </a>
-                                    </li>
-                                    <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Pages
-                                        </a>
-                                        <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                                            <li><a className="dropdown-item" href="services.html"> Services</a></li>
-                                            <li><a className="dropdown-item border-0" href="pricing.html"> Pricing</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="contact.html">Contact </a>
-                                    </li>
-                                </ul>
-                                <ul className="navbar-nav mb-0 ms-auto nav_right">
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#"><i className="fa fa-facebook" /> </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#"><i className="fa fa-twitter" /> </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#"><i className="fa fa-youtube-play" /> </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </section>
+              <Header/>
+                
                 <section id="center" className="center_h px-3">
                     <div className="container-fluid">
                         <div className="row center_h1">
@@ -76,12 +15,12 @@ function Home() {
                                     <div className="center_h1i1">
                                         <div className="grid clearfix">
                                             <figure className="effect-jazz mb-0">
-                                                <a href="#"><img src="img/1.jpg" className="w-100" alt="abc" /></a>
+                                                <a href="#"><img src="img/01.webp" className="w-100" alt="abc" /></a>
                                             </figure>
                                         </div>
                                     </div>
                                     <a href="#"><div className="center_h1i2 position-absolute w-100 text-center h-100 top-0">
-                                        <h5 className="text-white">Horse Ride</h5>
+                                        <h5 className="text-white">Japan tour</h5>
                                         <h6 className="mb-0 font_14 text-light">Try this experience now !</h6>
                                     </div></a>
                                 </div>

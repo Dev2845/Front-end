@@ -55,8 +55,8 @@ function Header() {
                   Blog
                 </a>
                 <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" href="blog.html"> Blog</a></li>
-                  <li><a className="dropdown-item border-0" href="blog_detail.html"> Blog Detail</a></li>
+                  <li><NavLink className="dropdown-item" to="/blog"> Blog</NavLink></li>
+                  <li><NavLink className="dropdown-item border-0" to="/blogsdetails"> Blog Detail</NavLink></li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -64,26 +64,23 @@ function Header() {
                   Package
                 </a>
                 <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" href="package.html"> Package</a></li>
-                  <li><a className="dropdown-item border-0" href="detail.html"> Package Detail</a></li>
+                  <li><NavLink className="dropdown-item" to="/Package">Package</NavLink></li>
+                  <li><NavLink className="dropdown-item border-0" to="/packagedetail"> Package Detail</NavLink></li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="services.html">Services </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pages
-                </a>
-                <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" href="services.html"> Services</a></li>
-                  <li><a className="dropdown-item border-0" href="pricing.html"> Pricing</a></li>
-                </ul>
-              </li>
+                < NavLink className="nav-link" to="/services">Services </NavLink>
+              </li >
+                  <li className="nav-item">
+                  < NavLink className="nav-link" to="/price"> Pricing</NavLink>
+                  </li>
+           
+
               <li className="nav-item">
-                <a className="nav-link" href="contact.html">Contact </a>
+                <NavLink className="nav-link" to="/contact">Contact </NavLink>
               </li>
-            </ul>
+              </ul>
+            
             <ul className="navbar-nav mb-0 ms-auto nav_right">
               <li className="nav-item">
                 <a className="nav-link" href="#"><i className="fa fa-facebook" /> </a>

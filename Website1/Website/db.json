@@ -1,0 +1,276 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "name": "subadmin",
+      "email": "subadmin@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "nishat1",
+      "email": "nishat@gmail.com",
+      "password": "1234",
+      "status": "unblock"
+    },
+    {
+      "id": "2",
+      "name": "user2",
+      "email": "user2@gmail.com",
+      "password": "123456",
+      "status": "block"
+    },
+    {
+      "id": "3-Jqc-KkgI4",
+      "name": "shubham",
+      "email": "shubham@gmail.com",
+      "password": "1234",
+      "status": "unblock"
+    },
+    {
+      "id": "CgoO6oI4vQw",
+      "name": "anshu",
+      "email": "anshu@gmail.com",
+      "password": "123456",
+      "status": "unblock"
+    }
+  ],
+  "package": [
+    {
+      "id": "1",
+      "name": "Dolor Porta",
+      "loaction": "Thailand",
+      "desc": "Visit the temples and the Chiang Mai Night Bazaar, a huge huge market located on Chiang Klan Road.",
+      "days": 3,
+      "img": "https://media.istockphoto.com/id/2164152889/photo/tourists-and-locals-enjoying-yaowarats-street-food.jpg?s=612x612&w=0&k=20&c=FGe6bKaxRhR0DJLbGHuHmAGYx2I4VBm9J-MJ-aowi9o=",
+      "price": "230"
+    },
+    {
+      "id": "1778148301744",
+      "name": "Memorable Taj Coral Reef Holiday",
+      "loaction": " Maldives",
+      "desc": "sdklfhlisdhf sdfoihsaldfijaskd asdasoidhoiasjdoi",
+      "days": "4",
+      "price": "350",
+      "img": "https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1993/Taj%20Coral%20Reef%20-%20Water%20Villa.JPG?crop=225:145&downsize=225:145?downsize=225:145"
+    },
+    {
+      "name": "North goa",
+      "loaction": "Goa",
+      "desc": "Enjoy your vacation with family and friends",
+      "days": "5",
+      "price": "150",
+      "img": "https://i.pinimg.com/736x/5c/b2/9f/5cb29f6d3439b2e2c78b7ce6b5b8dff3.jpg",
+      "id": "02H1KXEW8Xk"
+    },
+    {
+      "name": "Relaxing Manali",
+      "loaction": "Manali",
+      "desc": "make memories and enjoy manali",
+      "days": "4N/5D",
+      "price": "125",
+      "img": "https://i.pinimg.com/1200x/66/84/55/668455c752662955c2d968179097a7b5.jpg",
+      "id": "gXh3_wHVY2c"
+    }
+  ],
+  "service": [
+    {
+      "id": "1",
+      "name": "Ocean Cruises",
+      "desc": "Our travel agency specializes in providing our customers with the best deals on airline tickets.",
+      "icons": "fa fa-bus"
+    },
+    {
+      "id": "2",
+      "name": "Means of Transport",
+      "desc": "Our travel agency specializes in providing our customers with the best deals on airline tickets.",
+      "icons": "fa fa-contao"
+    },
+    {
+      "id": "3",
+      "name": "Airline Tickets",
+      "desc": "Our travel agency specializes in providing our customers with the best deals on airline tickets.",
+      "icons": "fa fa-car"
+    },
+    {
+      "id": "4",
+      "name": "Travel Insurance",
+      "desc": "Our travel agency specializes in providing our customers with the best deals on airline tickets.",
+      "icons": "fa fa-life-ring"
+    }
+  ],
+  "blog": [
+    {
+      "id": "1",
+      "img": "https://as1.ftcdn.net/jpg/03/03/26/78/1000_F_303267853_JhvZTyEF4y4Sp6Hf6dDoSGafpRRvSGYc.jpg",
+      "date": "May 9,2023",
+      "title": "Plan the Perfect Vacation",
+      "desc": "Planning a vacation can be overwhelming, but this post offers a step-by-step guide to help readers create a comprehensive travel itinerary. From choosing a destination to booking accommodations and activities, readers will learn how to plan a stress-free and enjoyable trip."
+    },
+    {
+      "id": "2",
+      "img": "https://img.magnific.com/free-photo/woman-with-hat-sitting-chairs-beach-beautiful-tropical-beach-woman-relaxing-tropical-beach-koh-nangyuan-island_335224-1110.jpg?semt=ais_hybrid&w=740&q=80",
+      "date": "May 10,2023",
+      "title": "Explore the Wonders",
+      "desc": "Planning a vacation can be overwhelming, but this post offers a step-by-step guide to help readers create a comprehensive travel itinerary. From choosing a destination to booking accommodations and activities, readers will learn how to plan a stress-free and enjoyable trip."
+    },
+    {
+      "id": "3",
+      "img": "https://static.vecteezy.com/system/resources/thumbnails/008/009/837/small/outdoor-tourism-landscape-luxurious-beach-resort-with-swimming-pool-and-beach-chairs-or-loungers-umbrellas-with-palm-trees-and-blue-sky-sea-horizon-summer-island-relax-travel-and-idyllic-vacation-photo.jpg",
+      "date": "May 9,2023",
+      "title": "Plan the Perfect Vacation",
+      "desc": "Planning a vacation can be overwhelming, but this post offers a step-by-step guide to help readers create a comprehensive travel itinerary. From choosing a destination to booking accommodations and activities, readers will learn how to plan a stress-free and enjoyable trip."
+    },
+    {
+      "id": "4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAy7w3zcMwNi6pfW-_pBC1o1hDcfev7ECqzw&s",
+      "date": "May 10,2023",
+      "title": "Explore the Wonders",
+      "desc": "Planning a vacation can be overwhelming, but this post offers a step-by-step guide to help readers create a comprehensive travel itinerary. From choosing a destination to booking accommodations and activities, readers will learn how to plan a stress-free and enjoyable trip."
+    },
+    {
+      "id": "5",
+      "img": "https://static.vecteezy.com/system/resources/thumbnails/037/248/582/small/ai-generated-travelling-to-thailand-advertisment-background-with-copy-space-free-photo.jpg",
+      "date": "May 9,2023",
+      "title": "Plan the Perfect Vacation",
+      "desc": "Planning a vacation can be overwhelming, but this post offers a step-by-step guide to help readers create a comprehensive travel itinerary. From choosing a destination to booking accommodations and activities, readers will learn how to plan a stress-free and enjoyable trip."
+    },
+    {
+      "id": "6",
+      "img": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+      "date": "May 10,2023",
+      "title": "Explore the Wonders",
+      "desc": "Planning a vacation can be overwhelming, but this post offers a step-by-step guide to help readers create a comprehensive travel itinerary. From choosing a destination to booking accommodations and activities, readers will learn how to plan a stress-free and enjoyable trip."
+    }
+  ],
+  "offers": [
+    {
+      "id": "1",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOaPnazUg5jb4P6OXyoOLIpUB7BRCx9iRWFg&s",
+      "title": "Half Board",
+      "price": 50,
+      "desc": "Transfers from Airport Minimum 3 Star Hotel Alcoholic beverages Incl. Museum Tickets Meals in Restaurants"
+    },
+    {
+      "id": "2",
+      "img": "https://www.google.com/imgres?q=tourist%20place&imgurl=https%3A%2F%2Fmedia.easemytrip.com%2Fmedia%2FBlog%2FIndia%2F637033873695687971%2F637033873695687971fsrzol.jpg&imgrefurl=https%3A%2F%2Fwww.easemytrip.com%2Fblog%2Fbest-places-to-visit-in-kerala&docid=QW8XdaRMOPPLpM&tbnid=g8Kwwj3J5oDpSM&vet=12ahUKEwj5wNXRl5eUAxWjwTgGHTnOJb0QnPAOegQINhAB..i&w=800&h=450&hcb=2&ved=2ahUKEwj5wNXRl5eUAxWjwTgGHTnOJb0QnPAOegQINhAB",
+      "title": "All Inclusive",
+      "price": 38,
+      "desc": "Transfers from Airport Minimum 3 Star Hotel Alcoholic beverages Incl. Museum Tickets Meals in Restaurants"
+    },
+    {
+      "id": "3",
+      "img": "https://www.swantour.com/blogs/wp-content/uploads/2018/02/Tourist-Places-in-Bangalore.jpg",
+      "title": "Excursions Included",
+      "price": 58,
+      "desc": "Transfers from Airport Minimum 3 Star Hotel Alcoholic beverages Incl. Museum Tickets Meals in Restaurants"
+    }
+  ],
+  "tours": [
+    {
+      "id": "1",
+      "img": "https://www.swantour.com/blogs/wp-content/uploads/2024/09/Explore-India-Tour.png",
+      "title": "Last Minute Summer Travel Tours",
+      "price": 930,
+      "saleprice": 430,
+      "desc": "Come to the agency to take advantage of our last minute summer trips. You can go on a cruise, in a wonderful tourist village or take an organized tour at an impactful price with 100% quality. Our offers are updated weekly so don't miss out on this fantastic opportunity.",
+      "location": "Europe",
+      "modeoftravel": "Air Travel",
+      "dates": "Summer Months",
+      "tourexpert": {
+        "name": "Ipsum Augue",
+        "photo": "",
+        "experience": "Experienced Travel Planner"
+      }
+    },
+    {
+      "id": "2",
+      "img": "https://www.edgeoftheworldtour.com/assets/img/home/edge-of-the-world-hero.webp",
+      "title": "- Journey to the Edge of the World",
+      "price": 930,
+      "saleprice": 260,
+      "desc": "Upon arrival, you’ll be greeted by your guide and transferred to your hotel. After settling in, you’ll attend an orientation meeting to go over the itinerary and meet your fellow travelers.",
+      "location": "Europe",
+      "modeoftravel": "Air Travel",
+      "dates": "Summer Months",
+      "tourexpert": {
+        "name": "Ipsum Augue",
+        "photo": "",
+        "experience": "Experienced Travel Planner"
+      }
+    },
+    {
+      "id": "3",
+      "img": "https://assets.cntraveller.in/photos/64a7ba701e94724098a80205/16:9/w_2000,h_1125,c_limit/Three-Year-Cruise-MV-Lara.jpg",
+      "title": "- Across Continents with a Cruise",
+      "price": 930,
+      "saleprice": 320,
+      "desc": "Upon arrival, you’ll be greeted by your guide and transferred to your hotel. After settling in, you’ll attend an orientation meeting to go over the itinerary and meet your fellow travelers.",
+      "location": "Europe",
+      "modeoftravel": "Air Travel",
+      "dates": "Summer Months",
+      "tourexpert": {
+        "name": "Ipsum Augue",
+        "photo": "",
+        "experience": "Experienced Travel Planner"
+      }
+    },
+    {
+      "id": "4",
+      "img": "https://images.luxuryescapes.com/fl_progressive,q_auto:eco,e_brightness_hsb:-30,dpr_2.0/bgoadaa2zrlpf5hxk1m",
+      "title": "- Quest for the Lost City of Gold",
+      "price": 930,
+      "saleprice": 470,
+      "desc": "Upon arrival, you’ll be greeted by your guide and transferred to your hotel. After settling in, you’ll attend an orientation meeting to go over the itinerary and meet your fellow travelers.",
+      "location": "Europe",
+      "modeoftravel": "Air Travel",
+      "dates": "Summer Months",
+      "tourexpert": {
+        "name": "Ipsum Augue",
+        "photo": "",
+        "experience": "Experienced Travel Planner"
+      }
+    },
+    {
+      "id": "5",
+      "img": "https://live.staticflickr.com/65535/54667250694_2de3d72bc2_b.jpg",
+      "title": "- The Great North American Road Trip",
+      "price": 930,
+      "saleprice": 290,
+      "desc": "Upon arrival, you’ll be greeted by your guide and transferred to your hotel. After settling in, you’ll attend an orientation meeting to go over the itinerary and meet your fellow travelers.",
+      "location": "Europe",
+      "modeoftravel": "Air Travel",
+      "dates": "Summer Months",
+      "tourexpert": {
+        "name": "Ipsum Augue",
+        "photo": "",
+        "experience": "Experienced Travel Planner"
+      }
+    },
+    {
+      "id": "6",
+      "img": "https://t4.ftcdn.net/jpg/01/23/50/55/360_F_123505532_29MEPKkuzjp2gNlxXx9QRLzOz9Wzjwnc.jpg",
+      "title": "- From the Highlands to the Coast",
+      "price": 930,
+      "saleprice": 540,
+      "desc": "Upon arrival, you’ll be greeted by your guide and transferred to your hotel. After settling in, you’ll attend an orientation meeting to go over the itinerary and meet your fellow travelers.",
+      "location": "Europe",
+      "modeoftravel": "Air Travel",
+      "dates": "Summer Months",
+      "tourexpert": {
+        "name": "Ipsum Augue",
+        "photo": "",
+        "experience": "Experienced Travel Planner"
+      }
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
