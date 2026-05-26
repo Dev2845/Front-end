@@ -9,8 +9,9 @@ function useApi(apilink) {
         fetchdata()
     },[])
     const fetchdata =async()=>{
-        const res = await axios.get(apilink)
-        setapi(res.data)}
+        const res = await axios.get(`${apilink}`)
+        setapi(res.data)
+    }
   
     return {api,fetchdata}
 }

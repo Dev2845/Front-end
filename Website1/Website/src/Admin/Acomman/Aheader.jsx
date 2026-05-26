@@ -27,7 +27,7 @@ function Aheader() {
                                         </ul>
                                     </li>
                                      <li className="nav-item">
-                                        <NavLink className="nav-link"  to="/sermange" >Services </NavLink>
+                                        <NavLink className="nav-link"  to="/Servicemana" >Services </NavLink>
                                     </li>
                                     <li className="nav-item">
                                         <NavLink className="nav-link"  to="/about">About </NavLink>

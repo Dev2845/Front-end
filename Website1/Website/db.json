@@ -45,15 +45,6 @@
   ],
   "package": [
     {
-      "id": "1",
-      "name": "Dolor Porta",
-      "loaction": "Thailand",
-      "desc": "Visit the temples and the Chiang Mai Night Bazaar, a huge huge market located on Chiang Klan Road.",
-      "days": 3,
-      "img": "https://media.istockphoto.com/id/2164152889/photo/tourists-and-locals-enjoying-yaowarats-street-food.jpg?s=612x612&w=0&k=20&c=FGe6bKaxRhR0DJLbGHuHmAGYx2I4VBm9J-MJ-aowi9o=",
-      "price": "230"
-    },
-    {
       "id": "1778148301744",
       "name": "Memorable Taj Coral Reef Holiday",
       "loaction": " Maldives",
@@ -79,6 +70,15 @@
       "price": "125",
       "img": "https://i.pinimg.com/1200x/66/84/55/668455c752662955c2d968179097a7b5.jpg",
       "id": "gXh3_wHVY2c"
+    },
+    {
+      "name": "puerto rico",
+      "loaction": "USA",
+      "desc": "travel its best part\n",
+      "days": "4",
+      "price": "250",
+      "img": "https://tse3.mm.bing.net/th/id/OIP.AEWiszFNdSd0xvi5nbYKrwHaE7?r=0&cb=thfvnextfalcon&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "id": "qk3S161sNNM"
     }
   ],
   "service": [

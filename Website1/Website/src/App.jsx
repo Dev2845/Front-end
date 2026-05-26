@@ -10,10 +10,10 @@ import PackageDtai from './Website/Pages/PackageDtai'
 import Package from './Website/Pages/Package'
 import NotFound from './Website/Pages/NotFound'
 import Dashboard from './Admin/Apage/Dashboard'
-import Servicemana from './Admin/Apage/Servicemana'
 import PackManage from './Admin/Apage/Packmanage'
 import PackAdd from './Admin/Apage/PackAdd'
 import Services from './Website/Pages/Services'
+import Servicemana from './Admin/Apage/Servicemana'
 
 
 
@@ -37,8 +37,8 @@ function App() {
             {/* Admin */}
             <Route path='/dash' element={<Dashboard />}/>
             <Route path='/packmange' element={<PackManage/>} />
-          <Route path='/sermange' element={<Servicemana/>} />
           <Route path='/PackAdd' element={<PackAdd/>} />
+          <Route path='/Servicemana' element={<Servicemana/>} />
           </Routes>
     
       

@@ -1,7 +1,8 @@
-import { use, useEffect, useState } from "react";
-import useApi from "../../Custome/useApi";
+import React, { useEffect, useState } from "react";
 import Aheader from "../Acomman/Aheader";
 import axios from "axios";
+import useApi from "../../Custome/useApi";
+import { toast } from "react-toastify";
 
 function PackManage() {
   // const [pkg, setpkg] = useState([])
@@ -21,7 +22,7 @@ function PackManage() {
 
   // get one Product
   const getPack = async (id) => {
-    const res = await Axios.get(`http://localhost:3000/package/${id}`);
+    const res = await axios.get(`http://localhost:3000/package/${id}`);
     // console.log(res.data);
     setpack(res.data);
   };
@@ -102,7 +103,7 @@ function PackManage() {
 
   return (
     <div>
-      <Aheader/>
+      <Aheader />
       <h1 className="text-center">Package Manage Detils</h1>
       <div className="container">
         <table className="table">

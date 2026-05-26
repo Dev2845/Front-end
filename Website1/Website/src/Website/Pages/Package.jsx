@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../Comman/Header'
 import NavTitle from '../Comman/NavTitle'
 import Footer from '../Comman/Footer'
@@ -6,8 +6,11 @@ import useApi from '../../Custome/useApi'
 
 function Package() {
   
-    const {api} = useApi("http://localhost:3000/package")
-    console.log(api)
+    const {api,fetchdata} = useApi("http://localhost:3000/package")
+    
+    useEffect (() => {
+        fetchdata()
+    },[])
   
   return (
     <div>
@@ -190,7 +193,7 @@ function Package() {
                                 <div className="desti3 row">
                                    {
                                     api && api.map((data,index)=>{
-                                        console.log(data)
+                                    
                                         return(
                                              <div className="col-md-6 my-3" key={data.id}>
                                         <div className="desti3im">
