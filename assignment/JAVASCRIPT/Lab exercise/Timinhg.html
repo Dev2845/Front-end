@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>setTimeout and setInterval Example</title>
+    <style>
+        #clock {
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align:center;">Digital Clock</h2>
+    <div id="clock"></div>
+
+    <script>
+        // Task 1: Change background color after 5 seconds
+        setTimeout(function () {
+            document.body.style.backgroundColor = "lightgreen";
+        }, 5000);
+
+        // Task 2: Digital Clock
+        function updateClock() {
+            let now = new Date();
+            document.getElementById("clock").innerHTML =
+                now.toLocaleTimeString();
+        }
+
+        updateClock();
+        setInterval(updateClock, 1000);
+    </script>
+
+</body>
+</html>

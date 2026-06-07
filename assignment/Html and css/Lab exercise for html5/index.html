@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio, Video, Canvas and SVG Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        canvas {
+            border: 2px solid black;
+            margin-top: 20px;
+        }
+
+        svg {
+            border: 2px solid black;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Audio Tag</h1>
+    <audio controls autoplay loop muted>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h1>Video Tag</h1>
+    <video width="500" controls autoplay loop muted>
+        <source src="https://www.youtube.com/embed/fbo1JO_Qmy0?si=wgUzDBXlPfwxEhZe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <h1>Canvas Shapes</h1>
+    <canvas id="myCanvas" width="400" height="250"></canvas>
+
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+
+        /* Rectangle */
+        ctx.fillStyle = "blue";
+        ctx.fillRect(20, 20, 120, 80);
+
+        /* Circle */
+        ctx.beginPath();
+        ctx.arc(220, 60, 40, 0, 2 * Math.PI);
+        ctx.fillStyle = "red";
+        ctx.fill();
+
+        /* Triangle */
+        ctx.beginPath();
+        ctx.moveTo(100, 180);
+        ctx.lineTo(50, 230);
+        ctx.lineTo(150, 230);
+        ctx.closePath();
+        ctx.fillStyle = "green";
+        ctx.fill();
+    </script>
+
+    <h1>SVG Shapes</h1>
+
+    <svg width="400" height="250">
+        <!-- Rectangle -->
+        <rect x="20" y="20" width="120" height="80"
+              fill="orange" stroke="black" />
+
+        <!-- Circle -->
+        <circle cx="250" cy="60" r="40"
+                fill="purple" stroke="black" />
+
+        <!-- Line -->
+        <line x1="20" y1="150" x2="350" y2="150"
+              stroke="blue" stroke-width="4" />
+
+        <!-- Polygon (Triangle) -->
+        <polygon points="180,180 130,230 230,230"
+                 fill="green" stroke="black" />
+    </svg>
+
+</body>
+</html>

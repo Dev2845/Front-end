@@ -11,6 +11,12 @@
       "name": "subadmin",
       "email": "subadmin@gmail.com",
       "password": "123456"
+    },
+    {
+      "name": "Dev trivedi",
+      "email": "Admin1@gmail.com",
+      "password": "12345",
+      "id": "8DmUaht-vuU"
     }
   ],
   "users": [
@@ -84,9 +90,9 @@
   "service": [
     {
       "id": "1",
-      "name": "Ocean Cruises",
+      "name": "swimming pool",
       "desc": "Our travel agency specializes in providing our customers with the best deals on airline tickets.",
-      "icons": "fa fa-bus"
+      "icons": "fa fa-know"
     },
     {
       "id": "2",
@@ -270,6 +276,10 @@
         "photo": "",
         "experience": "Experienced Travel Planner"
       }
+    },
+    {
+      "admin": [],
+      "id": "LIBGyxiPvTg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

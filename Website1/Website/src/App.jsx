@@ -14,12 +14,16 @@ import PackManage from './Admin/Apage/Packmanage'
 import PackAdd from './Admin/Apage/PackAdd'
 import Services from './Website/Pages/Services'
 import Servicemana from './Admin/Apage/Servicemana'
-
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Login from './Admin/Apage/Login'
+import ProtectedRoute from './Admin/Acomman/Protectedroutes'
 
 
 function App() {
   
   return (
+    
     <BrowserRouter>
     <div>
       <Routes>
@@ -39,6 +43,13 @@ function App() {
             <Route path='/packmange' element={<PackManage/>} />
           <Route path='/PackAdd' element={<PackAdd/>} />
           <Route path='/Servicemana' element={<Servicemana/>} />
+          <Route path='/Login' element={<Login/>} />
+        <Route
+          path="/dash"
+          element={
+            <ProtectedRoute>
+              <Dashboard />
+            </ProtectedRoute>}/>
           </Routes>
     
       

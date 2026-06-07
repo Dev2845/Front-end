@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>Blog Post Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.8;
+            padding: 20px;
+        }
+
+        .blog-container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Title */
+        .blog-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        /* Subtitle */
+        .blog-subtitle {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        /* Body Content */
+        .blog-content {
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+
+        .blog-content p {
+            margin-bottom: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .blog-container {
+                padding: 25px;
+            }
+
+            .blog-title {
+                font-size: 2rem;
+            }
+
+            .blog-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .blog-content {
+                font-size: 1rem;
+                line-height: 1.7;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .blog-title {
+                font-size: 1.7rem;
+            }
+
+            .blog-subtitle {
+                font-size: 1rem;
+            }
+
+            .blog-content {
+                font-size: 0.95rem;
+                line-height: 1.6;
+            }
+
+            .blog-container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="blog-container">
+
+        <h1 class="blog-title">
+            The Future of Web Development
+        </h1>
+
+        <h3 class="blog-subtitle">
+            Exploring Modern Technologies and Trends
+        </h3>
+
+        <div class="blog-content">
+            <p>
+                Web development has evolved significantly over the past decade.
+                Modern frameworks, responsive design techniques, and cloud-based
+                services have transformed the way developers build applications.
+            </p>
+
+            <p>
+                Technologies such as React, Angular, and Vue have made user
+                interfaces more interactive and efficient. At the same time,
+                advancements in CSS and responsive design ensure that websites
+                work seamlessly across all devices.
+            </p>
+
+            <p>
+                As artificial intelligence and automation continue to grow,
+                developers can expect new opportunities to create smarter,
+                faster, and more personalized web experiences for users around
+                the world.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>

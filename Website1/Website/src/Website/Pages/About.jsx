@@ -7,7 +7,7 @@ function About() {
     return (
         <div>
             <Header />
-            <NavTitle title="About Us" name="About Us" img/>
+            <NavTitle title="About Us" name="About Us" img={"https://media.zenfs.com/en/the_independent_635/79b75c4f6648e3b2379785b994d7f5d4"}/>
             <div>
                <section id="disc" className="p_3 px-3 bg-light">
                     <div className="container-fluid">

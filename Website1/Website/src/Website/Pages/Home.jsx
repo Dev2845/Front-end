@@ -5,6 +5,7 @@ function Home() {
     return (
         <div>
             <div>
+                
               <Header/>
                 
                 <section id="center" className="center_h px-3">
@@ -84,7 +85,7 @@ function Home() {
                                     <div className="center_h1i1">
                                         <div className="grid clearfix">
                                             <figure className="effect-jazz mb-0">
-                                                <a href="#"><img src="img/6.jpg" className="w-100" alt="abc" /></a>
+                                                <a href="#"><img src="img/6.jpg" className="w-100 " alt="abc" /></a>
                                             </figure>
                                         </div>
                                     </div>

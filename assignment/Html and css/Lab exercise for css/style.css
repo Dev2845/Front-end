@@ -1,0 +1,46 @@
+/* ID Selector for the form */
+#contactForm {
+    background-color: #f0f8ff;
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* ID Selector for title */
+#formTitle {
+    text-align: center;
+    color: navy;
+    margin-bottom: 20px;
+}
+
+/* Class Selector for form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Class Selector for common input fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* ID Selector for submit button */
+#submitBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+#submitBtn:hover {
+    background-color: #0056b3;
+}

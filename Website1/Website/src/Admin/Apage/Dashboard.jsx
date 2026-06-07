@@ -1,13 +1,19 @@
-import React from 'react'
-import Aheader from '../Acomman/Aheader'
+import React from "react";
+import Aheader from "../Acomman/Aheader";
 
 function Dashboard() {
+  const adminName = localStorage.getItem("Aname");
+
   return (
     <div>
-        <Aheader/>
-        <h1>Dashboard page</h1>
+      <Aheader/>
+
+      <div className="container mt-5 text-center">
+        <h1>Dashboard</h1>
+        <h2>Hello, {adminName} 👋</h2>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Dashboard
+export default Dashboard;

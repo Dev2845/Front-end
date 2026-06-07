@@ -1,6 +1,6 @@
 {
-  "name": "currency.json",
-  "private": "true",
+  "name": "currency-exchange",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
