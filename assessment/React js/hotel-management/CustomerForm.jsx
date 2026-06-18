@@ -3,7 +3,7 @@ import React, { useState } from "react";
 class CustomerFormHandler {
   validateForm(data) {
     const errors = {};
-
+ 
     if (data.fullName.trim().length < 3) {
       errors.fullName = "Name must be at least 3 characters";
     }
