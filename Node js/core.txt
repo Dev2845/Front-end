@@ -1,0 +1,6 @@
+core module  : node inbuild module use
+
+1) fs : file systemm ,create , read
+2) os : operating system
+3) path : folder ,file 
+4) http server 
