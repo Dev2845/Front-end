@@ -1,0 +1,133 @@
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.category-header h2{
+    color:#111827;
+}
+
+.category-header button {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-table {
+    width: 100%;
+    background: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,.08);
+}
+
+.category-table th,
+.category-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.category-table th {
+    background: #2563eb;
+    color: #fff;
+}
+
+.category-table td {
+    color: #111827;
+    font-weight: 500;
+}
+
+.category-table img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.category-table button {
+    margin: 0 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-table button:first-child {
+    background: #f59e0b;
+    color: #fff;
+}
+
+.category-table button:last-child {
+    background: #dc2626;
+    color: #fff;
+}
+
+.custom-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-modal-box {
+    width: 450px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.custom-modal-box h2,
+.custom-modal-box p,
+.custom-modal-box label {
+    color: #111827;
+}
+
+.custom-modal-box input,
+.custom-modal-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #111827;
+    background: #fff;
+}
+
+.preview {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.custom-modal-btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.custom-modal-btn button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-modal-btn button:first-child {
+    background: #6b7280;
+    color: #fff;
+}
+
+.custom-modal-btn button:last-child {
+    background: #2563eb;
+    color: #fff;
+}

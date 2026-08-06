@@ -1,0 +1,124 @@
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product-header button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.product-table th,
+.product-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product-table th {
+    background: #2563eb;
+    color: white;
+}
+
+.product-table img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-modal {
+
+    width: 650px;
+
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+}
+
+.preview-container {
+
+    display: flex;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    margin-top: 15px;
+
+}
+
+.preview {
+
+    width: 80px;
+
+    height: 80px;
+
+    border-radius: 8px;
+
+    object-fit: cover;
+
+    border: 1px solid #ddd;
+
+}
+
+.data{
+     background: #f59e0b;
+
+    color: white;
+    padding: 10px 15px;
+    margin: 0px 4px;
+}
+
+.product-header h2{
+    color:#111 !important;
+}
+
+.product-table th{
+    background:#2563eb;
+    color:#fff !important;
+}
+
+.product-table td{
+    color:#111 !important;
+    background:#fff;
+}
+
+.product-table td p,
+.product-table td span,
+.product-table td div{
+    color:#111 !important;
+}
+
+.product-modal{
+    background:#fff;
+    color:#111 !important;
+}
+
+.product-modal h2,
+.product-modal h3,
+.product-modal h4,
+.product-modal p,
+.product-modal label{
+    color:#111 !important;
+}
+
+.product-modal input,
+.product-modal textarea,
+.product-modal select{
+    color:#111 !important;
+    background:#fff;
+}

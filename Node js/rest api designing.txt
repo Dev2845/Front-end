@@ -1,0 +1,44 @@
+
+good Api url readable 
+
+student Api contract 
+
+method       route        purpose 
+
+get         /student      get all student id
+
+get         /student/:id   get single student id
+
+
+post       /student        add student 
+
+
+
+put        /student/:id     update student
+
+
+
+delete     /student/:id      delete student
+
+
+
+
+employee API contract
+
+
+method       route        purpose
+
+get         /Employee      get all Employee id
+
+get         /Employee/:id   get single Employee id
+
+
+post       /Employee        add Employee 
+
+
+
+put        /Employee/:id     update Employee
+
+
+
+delete     /Employee/:id      delete Employee

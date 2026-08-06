@@ -1,0 +1,127 @@
+.users-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.users-header h2{
+    color:#222 !important;
+}
+
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+
+.users-table th,
+.users-table td {
+    border: 1px solid #ddd;
+    padding: 14px;
+    text-align: center;
+    color: #222 !important;
+}
+
+.users-table th {
+    background: #0d6efd;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.users-table tbody tr {
+    background: #fff;
+}
+
+.users-table tbody tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+.users-table tbody tr:hover {
+    background: #eef5ff;
+}
+
+.user-img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.active {
+    color: #198754 !important;
+    font-weight: bold;
+}
+
+.blocked {
+    color: #dc3545 !important;
+    font-weight: bold;
+}
+
+.users-table button {
+    margin: 3px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+
+.users-table button:nth-child(1) {
+    background: #0d6efd;
+}
+
+.users-table button:nth-child(2) {
+    background: #ffc107;
+    color: #000;
+}
+
+.users-table button:nth-child(3) {
+    background: #dc3545;
+}
+
+.users-table button:hover {
+    opacity: .9;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-box {
+    width: 420px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal-box h2,
+.modal-box p {
+    color: #222 !important;
+}
+
+.user-preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.modal-box button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

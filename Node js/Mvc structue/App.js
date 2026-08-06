@@ -1,5 +1,6 @@
 const express = require("express")
 const userroute = require("./Routes/userroute")
+const productroute = require("./Routes/productroute")
 
 const app = express();
 
@@ -19,7 +20,8 @@ app.get("/catagory",(req,res)=>{
     res.end()
 })
 
-app.use("/user",userroute)
+app.use("/",userroute)
+app.use("/",productroute)
 
 app.listen(5000,()=>{
     console.log(`server Runing : http://localhost:5000`)

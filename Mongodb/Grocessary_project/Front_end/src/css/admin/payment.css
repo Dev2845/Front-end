@@ -1,0 +1,39 @@
+.payment-page{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:30px;
+}
+
+.payment-address,
+.payment-method,
+.payment-summary{
+    background:#fff;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.summary-row{
+    display:flex;
+    justify-content:space-between;
+    margin:15px 0;
+}
+
+.total{
+    font-size:22px;
+    font-weight:bold;
+    color:#0f766e;
+}
+
+.payment-method label{
+    display:block;
+    margin:20px 0;
+    cursor:pointer;
+    font-size:17px;
+}
+
+@media(max-width:768px){
+    .payment-page{
+        grid-template-columns:1fr;
+    }
+}
