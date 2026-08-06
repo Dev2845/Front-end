@@ -1,0 +1,13 @@
+Refactor my React component for a Zomato restaurant listing.
+
+Requirements:
+
+• Create a reusable custom hook called useRestaurants.
+• Move all API fetching logic into the hook.
+• Handle loading and error states inside the hook.
+• Keep the RestaurantList component responsible only for displaying UI.
+• Use React Hooks (useState and useEffect).
+• Follow clean code and React best practices.
+• Return complete code for:
+    1. useRestaurants.js
+    2. RestaurantList.jsx
